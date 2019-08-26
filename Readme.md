@@ -38,9 +38,15 @@ cp firmware/configs/sha2017_defconfig firmware/sdkconfig
 Then build and flash
 
 ````shell script
-./build
-./flash
+./build.sh
+./flash.sh
 ````
+
+## Monitor
+````shell script
+./monitor.sh
+````
+
 
 ## Result:
 ````shell script
