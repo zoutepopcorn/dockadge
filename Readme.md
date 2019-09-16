@@ -14,7 +14,6 @@ docker build -t dockadge .
 docker run -it --privileged --name badge-test -d dockadge  
 ````
 
-
 ## Build / Flash
 ````shell script
  docker exec -it badge-test bash
@@ -62,3 +61,4 @@ Hard resetting via RTS pin..
 ### TODO: 
 * mount data into fs
 * use --device=/dev/ttyUSB0 in place of --privileged
+[Todo.md](https://github.com/zoutepopcorn/dockadge/projects/2)
